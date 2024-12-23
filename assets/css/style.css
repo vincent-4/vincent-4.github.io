@@ -1,0 +1,71 @@
+body {
+	font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+h1 {
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 44px;
+}
+h3 {
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 33px;
+}
+p {
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 28.5714px;
+}
+blockquote {
+	font-size: 21px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+}
+pre {
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 18.5714px;
+}
+
+.end {
+	height:100px;
+}
+
+.header {
+	position: relative;
+}
+
+.container .blog p{
+	line-height: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.container .blog p:last-of-type{
+	margin-bottom: 130px;
+}
+
+.container .blog h2{
+	line-height: 2em;
+}
+
+.container .blog img {
+	width: 100%;
+}
+
+@media (min-width: 1200px){
+	.container .blog{
+	    width: 750px!important;
+	}
+}
